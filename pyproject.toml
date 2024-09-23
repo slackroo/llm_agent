@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "financial_analyst"
+version = "0.1.0"
+description = "financial_analyst using crewAI"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = { extras = ["tools"], version = ">=0.61.0,<1.0.0" }
+
+
+[tool.poetry.scripts]
+financial_analyst = "financial_analyst.main:run"
+run_crew = "financial_analyst.main:run"
+train = "financial_analyst.main:train"
+replay = "financial_analyst.main:replay"
+test = "financial_analyst.main:test"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
