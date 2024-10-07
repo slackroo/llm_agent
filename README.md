@@ -46,9 +46,37 @@ The financial_analyst Crew is composed of multiple AI agents, each with unique r
 ## Support
 
 For support, questions, or feedback regarding the FinancialAnalyst Crew or crewAI.
-- Visit our [documentation](https://docs.crewai.com)
-- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat with our docs](https://chatg.pt/DWjSBZn)
+- Docs  [documentation](https://docs.crewai.com)
+- Git [GitHub repository](https://github.com/joaomdmoura/crewai)
+- GPT Doc agent [Chat with our docs](https://chatg.pt/DWjSBZn)
 
 Let's create wonders together with the power and simplicity of crewAI.
+
+# Learning  
+
+## Tools
+What makes a great tool ? 
+- Verasatile - Making agents use different data types JASON string Int
+- Fault Tolerant 
+  - Exception handling. Fail gracefully (Try again) 
+  - Self healing
+  - Use case : Able to handle large no of docs and numbers might not be easy to read, text is not easy to parse
+- Caching
+    - Cross-agent caching (Use common tools) 
+    - Use Case: 
+      - Prevent unnecessary requests
+      - stay within rate limits (Number of requests per second allowed for an API call)
+      - Save time( retrieving cached results is much faster than an API call)
+    ### Examples
+        Examples of tools
+Examples of tools
+• Search the internet
+• Scrape a website
+• Connect to a database
+• Call an API
+• Send notifications
+
+and many more
+
+
+    
